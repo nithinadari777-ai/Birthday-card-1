@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Birthday Card</title>
+<style>
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ff4081;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e73370;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>🎉 Happy Birthday 🎂</h1>
+    <p>Wishing you joy, success, and happiness always!</p>
+    <p>Have a wonderful day 💖</p>
+    <button onclick="alert('🎁 Happy Birthday! Enjoy your day!')">Open Gift 🎁</button>
+</div>
+
+</body>
+</html>
